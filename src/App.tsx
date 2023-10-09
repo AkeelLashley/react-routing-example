@@ -3,7 +3,6 @@ import { Routes, Route, Link, Outlet, useParams } from 'react-router-dom';
 const Navigation = () => {
   const style = {
     display: 'flex',
-    flexDirection: 'row',
     backgroundColor: '#f3f4f6',
     padding: '20px',
     gap: '20px',
