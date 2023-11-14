@@ -10,12 +10,12 @@ const Navigation = () => {
 
   return (
     <>
+      <Outlet />
       <div style={style}>
         <Link to="/">HOME</Link>
         <Link to="/shop">SHOP</Link>
         <Link to="/sign-in">SIGN IN</Link>
       </div>
-      <Outlet />
     </>
   );
 };
